@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
     Created on : 08/04/2019, 10:44:21 AM
-    Author     : Max.Okura
+    Author     : Mawgee.Okura
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
