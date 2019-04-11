@@ -15,17 +15,22 @@
 }
 .button1 {background-color: #008CBA; border-radius: 8px;}
 .button2 {background-color: #4CAF50; border-radius: 8px;}
-.button3 {background-color: #4CAF50; border-radius: 8px; font-size: 10px;}
-
+.button3 {background-color: #4CAF50; border-radius: 8px; font-size: 15px;}
+p.sansserif{font-family:Arial,Helvetica,sans-serif;}
 </style>
 <body>
 <a href="http://www.google.com/" target="_blank"><p style="padding: 0px 500px 1px"><button class="button button3">new account</button></p></a>
 <center><img src="C:\Users\19738\Desktop\Assignment 1 isd\Logo.png" width="150" height="150"></center><br/>
 <center>
-User account: <input type = text name = user size = 16/><br/><br/><br/><br/>
-Password: <input type = password name = password size = 16/><br/>
+<table>
+<tr>
+<td><p class="sansserif">User account: <input type = text name = user size = 16/><br/><br/><br/><br/>
+My Password: <input type = password name = password size = 15/></p><br/><br/></td>
+</tr>
+</table>
+<p class="sansserif"><input type="checkbox" name="category" value="RememberMe" />Remember me</p>
+<a href="http://www.google.com/" target="_blank"><p style="padding:10px 500px 20px">Forget my password</p></a>
 </center>
-<a href="http://www.google.com/" target="_blank"><p style="padding:12px 500px 20px">Forget my password</p></a>
 <div><center>
 <button class="button button2">Cancel</button>
 <button class="button button1">Submit</button>
